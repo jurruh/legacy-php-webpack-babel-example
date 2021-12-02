@@ -1,0 +1,9 @@
+# This file doesn't have anything to do with Webpack it is just for local development of the app.
+version: '3'
+services:
+  web:
+    image: php:7.4-apache
+    volumes:
+      - ./:/var/www/html/
+    ports:
+      - 8080:80
