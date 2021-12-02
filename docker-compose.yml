@@ -1,4 +1,4 @@
-# This file doesn't have anything to do with Webpack it is just for local development of the app.
+# This file doesn't have anything to do with Webpack or Babel it is just for local development of the app.
 version: '3'
 services:
   web:
